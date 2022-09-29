@@ -99,6 +99,6 @@ public class FiniteStateMachine {
     }
 
     private boolean checkWayFromStartState(int state) {
-        return reachableStates.contains(state);
+        return finalStates.contains(state);
     }
 }
